@@ -29,12 +29,12 @@ func main(){
 	Mark := Data{"Mark", 78, 1.69}
 	John := Data{"John", 92, 1.95}
 
-	fmt.Println("Nilai variabel markHigherBMI data uji ke-1 :", markHigherBMI(Mark, John))
+	fmt.Println("Nilai variabel markHigherBMI data uji ke-1 :", markHigherBMI(Mark, John)) // hasil : true
 
 
 	// Data uji 2
 	Mark = Data{"Mark", 95, 1.88}
 	John = Data{"John", 85, 1.76}
 
-	fmt.Println("Nilai variabel markHigherBMI data uji ke-2 :", markHigherBMI(Mark, John))
+	fmt.Println("Nilai variabel markHigherBMI data uji ke-2 :", markHigherBMI(Mark, John)) // hasil : false
 }
