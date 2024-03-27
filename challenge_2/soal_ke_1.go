@@ -50,16 +50,16 @@ func main() {
 
 	InputData(&Lumba_lumba, 96, 108, 89)
 	InputData(&Koala, 88, 91, 110)
-	PenentuanPemenang("Data 1", Lumba_lumba, Koala)
+	PenentuanPemenang("Data 1", Lumba_lumba, Koala) // hasil : Tidak ada tim yang menang
 
 
 	InputData(&Lumba_lumba, 97, 112, 101)
 	InputData(&Koala, 109, 95, 123)
-	PenentuanPemenang("Data Bonus 1", Lumba_lumba, Koala)
+	PenentuanPemenang("Data Bonus 1", Lumba_lumba, Koala) // hasil : Tim Koala menang
 
 
 	InputData(&Lumba_lumba, 97, 112, 101)
 	InputData(&Koala, 109, 95, 106)
-	PenentuanPemenang("Data Bonus 2", Lumba_lumba, Koala)
+	PenentuanPemenang("Data Bonus 2", Lumba_lumba, Koala) // hasil : Skor kedua tim seri
 
 }
